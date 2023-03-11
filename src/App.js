@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import Footer from './components/home/Footer';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      {/* <!-- Scroll Up Button --> */}
+      <a href="#" className="scrollup" id="scroll-up">
+        <i className='bx bx-up-arrow-alt scrollup__icon'></i>
+      </a>
+      <Footer />
+    </>
   );
 }
 
