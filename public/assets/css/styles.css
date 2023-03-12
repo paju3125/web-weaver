@@ -308,26 +308,29 @@ body.dark-theme {
 
 /* CSS */
 
-.menu {
+.dropdown-menu {
 	position: absolute;
-	top: 60px;
-	right: -20px;
+	/* top: 60px; */
+	/* right: -20px; */
 	display: grid;
-	width: 180px;
+	/* width: 180px; */
 	padding: 8px 0;
 	background: #ffffff;
-	border-radius: 10px;
-	border: 1px solid;
+	border-radius: 10px !important;
+	border: 1px solid #000 !important;
 	box-shadow: 0 40px 40px rgb(0 0 0 / 6%);
-	opacity: 0;
-	visibility: hidden;
-	transition: 0.25s;
+}
+
+.dropdown-menu .dropdown-item {
+	/* width: 180px; */
+	word-wrap: break-word;
+	overflow-wrap: break-word;
 }
 
 
 /* CSS */
 
-.menu::before {
+.dropdown-menu::before {
 	content: "";
 	background: inherit;
 	border-top: 1px solid;
@@ -438,14 +441,14 @@ body.dark-theme {
 }
 
 .room-type h2 {
-	margin: 20px;
+	margin: 15px;
 	font-size: 24px;
 	font-weight: bold;
 	text-align: center;
 }
 
 .room-type .description {
-	margin: 20px;
+	margin: 15px;
 	font-size: 16px;
 	text-align: justify;
 }
@@ -502,12 +505,12 @@ h2 {
 }
 
 .card-image {
-	width: 50%;
+	width: 80%;
 	overflow: hidden;
 }
 
 .card-image img {
-	width: 80%;
+	width: 100%;
 	transition: transform .8s ease;
 }
 
@@ -516,7 +519,7 @@ h2 {
 }
 
 .card-content {
-	width: 50%;
+	width: 70%;
 	padding: 0 20px;
 }
 
@@ -1516,4 +1519,10 @@ nav .navbar-collapse.collapse.in {
 	.search-box {
 		max-width: 1000px !important;
 	}
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+	margin-top: 0;
+	/* remove the gap so it doesn't close */
 }

@@ -3,9 +3,10 @@ import React from 'react'
 export default function Accomodation() {
     return (
         <div style={{ margin: "10% 2%" }}>
-            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 w-100 g-4 mt-5 d-flex justify-content-around">
-                <div className="col" style={{ width: "22rem", height: "32rem" }}>
-                    <div className="card room-type h-100" >
+            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 w-100 g-5 mt-5 d-flex justify-content-around">
+
+                <div className=" col-sm-12 col-md-6 col-lg-3" style={{ width: "22rem", height: "32rem" }}>
+                    <div className="card room-type  h-100 p-0" >
                         <img src="assets/img/ds1.JPG" alt="deluxeRoom" />
                         <div className="card-body">
                             <h2>Deluxe Suite with Balcony</h2>
@@ -18,8 +19,8 @@ export default function Accomodation() {
                     </div>
                 </div>
 
-                <div className="col" style={{ width: "22rem", height: "32rem" }}>
-                    <div className="card room-type col h-100">
+                <div className=" col-sm-12 col-md-6 col-lg-3" style={{ width: "22rem", height: "32rem" }}>
+                    <div className="card room-type  h-100 p-0">
                         <img src="assets/img/ds2.JPG" alt="deluxeRoom1" />
                         <div className="card-body">
                             <h2>Deluxe Suite with Balcony</h2>
@@ -33,8 +34,8 @@ export default function Accomodation() {
                 </div>
 
 
-                <div className="col" style={{ width: "22rem", height: "32rem" }}>
-                    <div className="card room-type col h-100">
+                <div className=" col-sm-12 col-md-6 col-lg-3" style={{ width: "22rem", height: "32rem" }}>
+                    <div className="card room-type  h-100 p-0">
                         <img src="assets/img/dr1.JPG" alt="deluxeRoom2" />
                         <div className="card-body">
                             <h2>Deluxe Bedroom with balcony</h2>
@@ -47,8 +48,8 @@ export default function Accomodation() {
                     </div>
                 </div>
 
-                <div className="col" style={{ width: "22rem", height: "32rem" }}>
-                    <div className="card room-type col h-100">
+                <div className=" col-sm-12 col-md-6 col-lg-3" style={{ width: "22rem", height: "32rem" }}>
+                    <div className="card room-type  h-100 p-0">
                         <img src="assets/img/sr1.JPG" alt="Standardroom 2" />
                         <div className="card-body">
                             <h2>Standard Bedroom</h2>

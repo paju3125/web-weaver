@@ -228,7 +228,7 @@ export default function NavComp(props) {
                                         <Link className="nav-link" to="/host">The Host</Link>
                                     </li>
                                     <li className="nav-item dropdown">
-                                        <Link className="nav-link dropdown-toggle" to="/accomodation" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <Link className="nav-link dropdown-toggle" to="/accomodation">
                                             Accomodation
                                         </Link>
                                         <ul className="dropdown-menu">
@@ -238,7 +238,7 @@ export default function NavComp(props) {
                                         </ul>
                                     </li>
                                     <li className="nav-item dropdown">
-                                        <Link className="nav-link dropdown-toggle" to="/facilities" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <Link className="nav-link dropdown-toggle" to="/facilities">
                                             Facilities
                                         </Link>
                                         <ul className="dropdown-menu">
@@ -257,7 +257,7 @@ export default function NavComp(props) {
                                         <Link className="nav-link" to="/gallery">Gallery</Link>
                                     </li>
                                     <li className="nav-item dropdown">
-                                        <Link className="nav-link dropdown-toggle" to="/attractions" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <Link className="nav-link dropdown-toggle" to="/attractions">
                                             Local Attractions
                                         </Link>
                                         <ul className="dropdown-menu">

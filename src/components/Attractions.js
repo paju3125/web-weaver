@@ -5,12 +5,13 @@ export default function Attractions() {
         <section className="facilities mt-5">
             <div className="container">
                 <h2>Homestay Facilities</h2>
-                <div className="row">
+                <div className="row text-justify">
 
-                    <div className="facility-card mt-5 row row-cols-1 row-cols-md-2">                    <div className="card-image col">
-                        <img src="assets/img/nelliyampathy_hills.jpg" alt="Facility 1" />
-                    </div>
-                        <div className="card-content col">
+                    <div className="facility-card mt-5 row row-cols-1 ">
+                        <div className="card-image  col-sm-12 col-md-6">
+                            <img src="assets/img/nelliyampathy_hills.jpg" alt="Facility 1" />
+                        </div>
+                        <div className="card-content  col-sm-12 col-md-6">
                             <h3>Nelliampathy Hills
 
                             </h3>
@@ -20,10 +21,11 @@ export default function Attractions() {
                             </p>        </div>
 
                     </div>
-                    <div className="facility-card mt-5 row row-cols-1 row-cols-md-2">                    <div className="card-image col">
-                        <img src="assets/img/pothundi-dam.webp" alt="Facility 2" />
-                    </div>
-                        <div className="card-content col">
+                    <div className="facility-card mt-5 row row-cols-1 row-cols-md-2">
+                        <div className="card-image  col-sm-12 col-md-6">
+                            <img src="assets/img/pothundi-dam.webp" alt="Facility 2" />
+                        </div>
+                        <div className="card-content  col-sm-12 col-md-6">
                             <h3>Pothundy Dam
                             </h3>
                             <p>
@@ -33,19 +35,21 @@ export default function Attractions() {
                             <a href="https://www.keralatourism.org/kerala-article/2021/pothundi-dam/1089"><b>Know More...</b></a>
                         </div>
                     </div>
-                    <div className="facility-card mt-5 row row-cols-1 row-cols-md-2">                    <div className="card-image col">
-                        <img src="assets/img/Pothundy Siva Temple.jfif" alt="Facility 3" />
-                    </div>
-                        <div className="card-content col">
+                    <div className="facility-card mt-5 row row-cols-1 row-cols-md-2">
+                        <div className="card-image  col-sm-12 col-md-6">
+                            <img src="assets/img/Pothundy Siva Temple.jfif" alt="Facility 3" />
+                        </div>
+                        <div className="card-content  col-sm-12 col-md-6">
                             <h3> Pothundy Siva Temple
                             </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                     </div>
-                    <div className="facility-card mt-5 row row-cols-1 row-cols-md-2">                    <div className="card-image col">
-                        <img src="assets/img/Sri-Nellikulangara-Bhagavathi-Temple-Nenmara.jpg" alt="Facility 1" />
-                    </div>
-                        <div className="card-content col">
+                    <div className="facility-card mt-5 row row-cols-1 row-cols-md-2">
+                        <div className="card-image  col-sm-12 col-md-6">
+                            <img src="assets/img/Sri-Nellikulangara-Bhagavathi-Temple-Nenmara.jpg" alt="Facility 1" />
+                        </div>
+                        <div className="card-content  col-sm-12 col-md-6">
                             <h3>Nellikulangara  Bhagavathi Temple,  Nemmara
                             </h3>
                             <p>
@@ -55,10 +59,11 @@ export default function Attractions() {
                             <a href="http://keralatourism.guide/pilgrimages/nellikulangara-bhagavathy-temple"><b>Know More...</b></a>
                         </div>
                     </div>
-                    <div className="facility-card mt-5 row row-cols-1 row-cols-md-2">                    <div className="card-image col">
-                        <img src="assets/img/Meenkulathil Amman Temple, Pallassena.jpg" alt="Facility 1" />
-                    </div>
-                        <div className="card-content col">
+                    <div className="facility-card mt-5 row row-cols-1 row-cols-md-2">
+                        <div className="card-image  col-sm-12 col-md-6">
+                            <img src="assets/img/Meenkulathil Amman Temple, Pallassena.jpg" alt="Facility 1" />
+                        </div>
+                        <div className="card-content  col-sm-12 col-md-6">
                             <h3>Meenkulathil Amman Temple, Pallassena
                             </h3>
                             <p>
@@ -72,10 +77,11 @@ export default function Attractions() {
                             </p>        </div>
                     </div>
 
-                    <div className="facility-card mt-5 row row-cols-1 row-cols-md-2">                    <div className="card-image col">
-                        <img src="assets/img/kachamkurissi-01.jpg" alt="Facility 1" />
-                    </div>
-                        <div className="card-content col">
+                    <div className="facility-card mt-5 row row-cols-1 row-cols-md-2">
+                        <div className="card-image  col-sm-12 col-md-6">
+                            <img src="assets/img/kachamkurissi-01.jpg" alt="Facility 1" />
+                        </div>
+                        <div className="card-content  col-sm-12 col-md-6">
                             <h3>Thiru Kachamkurissi Temple
                             </h3>
                             <p>
@@ -85,10 +91,11 @@ export default function Attractions() {
 
                             </p>        </div>
                     </div>
-                    <div className="facility-card mt-5 row row-cols-1 row-cols-md-2">                    <div className="card-image col">
-                        <img src="assets/img/Kalari Kovilakom - The Palace for Ayurveda.jpg" alt="Facility 1" />
-                    </div>
-                        <div className="card-content col">
+                    <div className="facility-card mt-5 row row-cols-1 row-cols-md-2">
+                        <div className="card-image  col-sm-12 col-md-6">
+                            <img src="assets/img/Kalari Kovilakom - The Palace for Ayurveda.jpg" alt="Facility 1" />
+                        </div>
+                        <div className="card-content  col-sm-12 col-md-6">
                             <h3>Kalari Kovilakom - The Palace for Ayurveda
                             </h3>
                             <p>
@@ -98,10 +105,11 @@ export default function Attractions() {
                             <a href="https://www.cghearthayurveda.com/kalari-kovilakom/"><b>Know More...</b></a>
                         </div>
                     </div>
-                    <div className="facility-card mt-5 row row-cols-1 row-cols-md-2">                    <div className="card-image col">
-                        <img src="assets/img/Seetharkundu waterfalls, kollenkode.jfif" alt="Facility 1" />
-                    </div>
-                        <div className="card-content col">
+                    <div className="facility-card mt-5 row row-cols-1 row-cols-md-2">
+                        <div className="card-image  col-sm-12 col-md-6">
+                            <img src="assets/img/Seetharkundu waterfalls, kollenkode.jfif" alt="Facility 1" />
+                        </div>
+                        <div className="card-content  col-sm-12 col-md-6">
                             <h3>
                                 Seetharkundu waterfalls, kollenkode</h3>
                             <p>
@@ -112,10 +120,11 @@ export default function Attractions() {
                                 <a href="https://www.keralatourism.org/malabar/seetharkundu/41"><b>Know More...</b></a>
                             </p>        </div>
                     </div>
-                    <div className="facility-card mt-5 row row-cols-1 row-cols-md-2">                    <div className="card-image col">
-                        <img src="assets/img/Parambikulam-banner1.jpg" alt="Facility 1" />
-                    </div>
-                        <div className="card-content col">
+                    <div className="facility-card mt-5 row row-cols-1 row-cols-md-2">
+                        <div className="card-image col-sm-12 col-md-6">
+                            <img src="assets/img/Parambikulam-banner1.jpg" alt="Facility 1" />
+                        </div>
+                        <div className="card-content col-sm-12 col-md-6">
                             <h3>
                                 Parambikulam Wildlife Sanctuary </h3>
                             <p>
